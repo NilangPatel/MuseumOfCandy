@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+    <!-- customizations -->
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="mOCstyle.css">
+    <title>Museum of Candy</title>
+</head>
+<body>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   
+
+        <nav id="mainNAV" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+            <a class="navbar-brand" href="#">CANDY</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">HOME</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="">ABOUT</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="">TICKETS</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+        
+        <script>
+        $(function () {
+            $(document).scroll(function(){
+                var $navP = $("#mainNAV");
+                $navP.toggleClass("scrolling", $(this).scrollTop() > $navP.height());
+            })
+        })
+    </script>
+
+    <section class="container-fluid px-0"></section>
+        <div class="row align-items-center margins">
+            <div class="col-md-6">
+                <div id="wptitle" class="text-white text-center d-none d-md-block mt-5">
+                    <h1>MUSEUM <span>/</span> OF <span>/</span> CANDY</h1>
+                    <h1>MUSEUM <span>/</span> OF <span>/</span> CANDY</h1>
+                    <h1>MUSEUM <span>/</span> OF <span>/</span> CANDY</h1>
+                    <h1>MUSEUM <span>/</span> OF <span>/</span> CANDY</h1>
+                    <h1>MUSEUM <span>/</span> OF <span>/</span> CANDY</h1>
+                    <h1>MUSEUM <span>/</span> OF <span>/</span> CANDY</h1>
+                    <h1>MUSEUM <span>/</span> OF <span>/</span> CANDY</h1>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid" src="imgsCan/hand2.png" alt="...">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid px-0">
+        <!-- first -->
+        <div class="row align-items-center text-center margins">
+            
+            <div class="col-md-6 order-2 order-md-1">
+                <img class="img-fluid" src="imgsCan/milk.png" alt="...">
+            </div>
+            
+            <div id="heading1" class="col-md-6 row justify-content-center order-1 order-md-2">
+                <div class="col-10 col-lg-8 mb-5 mb-md-0 blurbb">
+                    <h2>MUSEUM OF CANDY</h2>
+                    <img class="d-none d-xl-inline" src="imgsCan/lolli_icon.png" alt="...">
+                    <p class="lead">Bacon ipsum dolor amet hamburger rump brisket, biltong corned beef sirloin porchetta turkey salami picanha. Pork burgdoggen leberkas chuck, cow t-bone fatback hamburger salami beef. Corned beef porchetta beef ribs frankfurter kevin brisket pancetta shankle pastrami drumstick pork chop picanha turducken. </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- second -->
+        <div class="row align-items-center text-center margins px-0">
+            
+            <div class="col-md-6 order-2">
+                <img class="img-fluid" src="imgsCan/sprinkles.png" alt="...">
+            </div>
+            
+            <div id="heading1" class="col-md-6 row justify-content-center order-1">
+                <div class="col-10 col-lg-8 mb-5 mb-md-0 blurbb">
+                    <h2>MUSEUM OF CANDY</h2>
+                    <img class="d-none d-xl-inline" src="imgsCan/lolli_icon.png" alt="...">
+                    <p class="lead">Bacon ipsum dolor amet hamburger rump brisket, biltong corned beef sirloin porchetta turkey salami picanha. Pork burgdoggen leberkas chuck, cow t-bone fatback hamburger salami beef. Corned beef porchetta beef ribs frankfurter kevin brisket pancetta shankle pastrami drumstick pork chop picanha turducken. </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- third -->
+        <div class="row align-items-center text-center margins">
+            
+            <div class="col-md-6 order-2 order-md-1">
+                <img class="img-fluid" src="imgsCan/gumball.png" alt="...">
+            </div>
+            
+            <div id="heading1" class="col-md-6 row justify-content-center order-1 order-md-2">
+                <div class="col-10 col-lg-8 mb-5 mb-md-0 blurbb">
+                    <h2>MUSEUM OF CANDY</h2>
+                    <img class="d-none d-xl-inline" src="imgsCan/lolli_icon.png" alt="...">
+                    <p class="lead">Bacon ipsum dolor amet hamburger rump brisket, biltong corned beef sirloin porchetta turkey salami picanha. Pork burgdoggen leberkas chuck, cow t-bone fatback hamburger salami beef. Corned beef porchetta beef ribs frankfurter kevin brisket pancetta shankle pastrami drumstick pork chop picanha turducken. </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    
+
+<!-- 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>
